@@ -1,0 +1,65 @@
+.container{
+ display: inline-block;
+ background-color: DimGray;
+ position: relative;
+ width: 100%;
+ height: 50px;
+}
+.footerImage {
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10%;
+  height: 10%;
+}
+.fontClass{
+  position: relative;
+  display: inline-block;
+  top: 15px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+}
+.headerFooter{
+  position: relative;
+  background-color: #333;
+  left: -10px;
+}
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.article{
+  position: relative;
+  display: block;
+  top: 0px;
+  left: -10px;
+  color: black;
+  margin: 0;
+  padding: 0;
+}
+.h2-header{
+  text-align: center;
+  text-decoration: none;
+  color: white;
+
+}
+p{
+  color:white;
+  text-align: left;
+}
+
+*{
+    font-family: sans-serif;
+}
