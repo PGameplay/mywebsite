@@ -43,7 +43,6 @@
 .article{
   position: relative;
   display: block;
-  top: 0px;
   left: -10px;
   color: black;
   margin: 0;
@@ -51,13 +50,41 @@
 }
 .h2-header{
   text-align: center;
+  font-size: 30px;
   text-decoration: none;
   color: white;
-
 }
 p{
+  position: relative;
+  display: block;
   color:white;
   text-align: left;
+  left: 380px;
+}
+img{
+  position: relative;
+  border-radius: 10px;
+  width: 300px;
+  top: -50px;
+  left: 40px;
+}
+a{
+  text-decoration: none;
+  color: #DB5A34;
+}
+body{
+  overflow-x: hidden;
+  background-color: Azure;
+  position:relative;
+  padding-left:0;
+  padding-right:0;
+  width: 100%;
+}
+.top23{
+padding: 20px;
+padding-top: 0px;
+padding-right:20px;
+background: #;
 }
 
 *{
